@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    min-height: 70%;
+}
+ body{
+   
+    background-image: url(images/SKY.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'syne', sans-serif;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-container {
+    text-align: center;
+    width: 100%;
+  }
+  .link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .w3-button{
+    color: rgba(40, 42, 53)!important;
+    background-color: rgba(255, 244, 163, 0.9) !important
+  }
